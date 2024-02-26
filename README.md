@@ -8,7 +8,7 @@ This project is a Django-based web application that utilizes various libraries f
 2. Install dependencies using pip: pip install -r requirements.txt
 
 ## Start Up
-1. Declare you openai key as an env var: export OPENAI_API_KEY="api_key"
+1. Declare your openai key as an env var: export OPENAI_API_KEY="api_key"
 2. Open Docker.
 3. Start Docker container: docker-compose up -d
 4. Run the Django development server: python manage.py runserver
