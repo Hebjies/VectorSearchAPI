@@ -1,6 +1,8 @@
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 
+# This is the first custom class created. It connects to qdrant client.
+
 class VectorBase:
 
     def __init__(self,):
@@ -8,6 +10,8 @@ class VectorBase:
         self.client=QdrantClient(host="localhost", port=6333)
 
     def create_collection(self,):
+        
+        # This function creates a new qdrant collection, named Txt_vector_search.
         
         try:
             self.client.create_collection(
