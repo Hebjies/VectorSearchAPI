@@ -35,6 +35,16 @@ curl --location 'http://127.0.0.1:8000/api/answer/' \
 
 Detailed documentation can be found at http://127.0.0.1:8000/docs
 
+## LLM
+
+If you want to check the code related to vector databases, embeddings and llm engines, please see:
+
+doc_uploader/
+├── qdrant_collection.py
+├── embeddings_calculations.py
+├── new_doc.py
+└── query_doc.py
+
 ## Contact
 For inquiries or support, please contact [heb.jimenez@gmail.com].
 
